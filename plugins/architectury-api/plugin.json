@@ -1,0 +1,14 @@
+{
+  "id": "architectury",
+  "weight": 22,
+  "minversion": 0,
+  "supportedversions": [
+    2024001
+  ],
+  "info": {
+    "name": "Architectury",
+    "version": "1.0.0",
+    "description": "Architectury API Support",
+    "author": "SaltyFrappuccino"
+  }
+}

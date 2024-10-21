@@ -1,0 +1,13 @@
+{
+  "id": "ftb",
+  "weight": 22,
+  "supportedversions": [
+    2024001
+  ],
+  "info": {
+    "name": "FTB Library",
+    "version": "1.0.0",
+    "description": "FTB Library Support",
+    "author": "SaltyFrappuccino"
+  }
+}
