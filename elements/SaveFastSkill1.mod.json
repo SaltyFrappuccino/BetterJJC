@@ -1,0 +1,12 @@
+{
+  "_fv": 60,
+  "_type": "keybind",
+  "definition": {
+    "triggerKey": "1",
+    "keyBindingName": "Save Fast Skill 1",
+    "keyBindingCategoryKey": "betterjjc_fastskills",
+    "onKeyPressed": {
+      "name": "SaveFastSkill1KeyPressed"
+    }
+  }
+}

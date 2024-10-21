@@ -1,0 +1,12 @@
+{
+  "_fv": 60,
+  "_type": "keybind",
+  "definition": {
+    "triggerKey": "O",
+    "keyBindingName": "Toggle Combat Mode",
+    "keyBindingCategoryKey": "betterjjc_fastskills",
+    "onKeyPressed": {
+      "name": "ToggleCombatModeKeyPressed"
+    }
+  }
+}

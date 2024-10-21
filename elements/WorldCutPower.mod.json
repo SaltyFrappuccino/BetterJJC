@@ -1,0 +1,12 @@
+{
+  "_fv": 60,
+  "_type": "gamerule",
+  "definition": {
+    "type": "Number",
+    "displayName": "World Cut Power",
+    "description": "Set world cut power",
+    "category": "PLAYER",
+    "defaultValueLogic": false,
+    "defaultValueNumber": 20
+  }
+}

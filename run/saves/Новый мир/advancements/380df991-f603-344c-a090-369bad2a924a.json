@@ -1,0 +1,663 @@
+{
+  "jujutsucraft:jujutsu_craft_skills": {
+    "criteria": {
+      "jujutsu_craft_skills_0": "2024-09-24 14:26:00 +0400"
+    },
+    "done": true
+  },
+  "jujutsucraft:skill_divine_dog_totality": {
+    "criteria": {
+      "skill_divine_dog_totality_0": "2024-09-24 14:26:00 +0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2024-09-24 14:26:00 +0400"
+    },
+    "done": true
+  },
+  "jujutsucraft:skill_merged_beast_agito": {
+    "criteria": {
+      "skill_merged_beast_agito_0": "2024-09-24 14:26:00 +0400"
+    },
+    "done": true
+  },
+  "jujutsucraft:battle_advancements": {
+    "criteria": {
+      "battle_advancements_0": "2024-09-24 14:26:00 +0400"
+    },
+    "done": true
+  },
+  "jujutsucraft:start_jujutsu_craft": {
+    "criteria": {
+      "start_jujutsu_craft_0": "2024-09-24 14:26:00 +0400"
+    },
+    "done": true
+  },
+  "jujutsucraft:skill_gojo": {
+    "criteria": {
+      "skill_gojo_0": "2024-09-24 14:26:08 +0400"
+    },
+    "done": true
+  },
+  "jujutsucraft:skill_cursed_technique_lapse_blue": {
+    "criteria": {
+      "skill_cursed_technique_lapse_blue_0": "2024-09-24 14:26:08 +0400"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:sunflower_plains": "2024-09-24 18:00:14 +0400",
+      "minecraft:beach": "2024-09-24 14:34:32 +0400",
+      "minecraft:river": "2024-09-24 14:34:18 +0400",
+      "minecraft:ocean": "2024-09-24 17:59:57 +0400",
+      "minecraft:flower_forest": "2024-09-24 14:37:54 +0400",
+      "minecraft:savanna": "2024-09-24 14:26:09 +0400",
+      "minecraft:plains": "2024-09-28 21:00:49 +0400"
+    },
+    "done": false
+  },
+  "jujutsucraft:mastery_domain_expansion": {
+    "criteria": {
+      "mastery_domain_expansion_0": "2024-09-24 14:26:38 +0400"
+    },
+    "done": true
+  },
+  "jujutsucraft:skill_high_speed": {
+    "criteria": {
+      "skill_high_speed_0": "2024-09-24 14:26:48 +0400"
+    },
+    "done": true
+  },
+  "jujutsucraft:sorcerer_grade_2_semi": {
+    "criteria": {
+      "sorcerer_grade_2_semi_0": "2024-09-24 14:26:48 +0400"
+    },
+    "done": true
+  },
+  "jujutsucraft:skill_strike_strengthening": {
+    "criteria": {
+      "skill_strike_strengthening_0": "2024-09-24 14:26:48 +0400"
+    },
+    "done": true
+  },
+  "jujutsucraft:sorcerer_grade_4": {
+    "criteria": {
+      "sorcerer_grade_4_0": "2024-09-24 14:26:48 +0400"
+    },
+    "done": true
+  },
+  "jujutsucraft:sorcerer_grade_1": {
+    "criteria": {
+      "sorcerer_grade_1_0": "2024-09-24 14:26:48 +0400"
+    },
+    "done": true
+  },
+  "jujutsucraft:sorcerer_grade_2": {
+    "criteria": {
+      "sorcerer_grade_2_0": "2024-09-24 14:26:48 +0400"
+    },
+    "done": true
+  },
+  "jujutsucraft:sorcerer_grade_3": {
+    "criteria": {
+      "sorcerer_grade_3_0": "2024-09-24 14:26:48 +0400"
+    },
+    "done": true
+  },
+  "jujutsucraft:sorcerer_grade_special": {
+    "criteria": {
+      "sorcerer_grade_special_0": "2024-09-24 14:26:48 +0400"
+    },
+    "done": true
+  },
+  "jujutsucraft:sorcerer_grade_1_semi": {
+    "criteria": {
+      "sorcerer_grade_1_semi_0": "2024-09-24 14:26:48 +0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/mangrove_boat": {
+    "criteria": {
+      "in_water": "2024-09-24 14:34:18 +0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/acacia_boat": {
+    "criteria": {
+      "in_water": "2024-09-24 14:34:18 +0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/cherry_boat": {
+    "criteria": {
+      "in_water": "2024-09-24 14:34:18 +0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/bamboo_raft": {
+    "criteria": {
+      "in_water": "2024-09-24 14:34:18 +0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/spruce_boat": {
+    "criteria": {
+      "in_water": "2024-09-24 14:34:18 +0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/birch_boat": {
+    "criteria": {
+      "in_water": "2024-09-24 14:34:18 +0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/oak_boat": {
+    "criteria": {
+      "in_water": "2024-09-24 14:34:18 +0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/jungle_boat": {
+    "criteria": {
+      "in_water": "2024-09-24 14:34:18 +0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/dark_oak_boat": {
+    "criteria": {
+      "in_water": "2024-09-24 14:34:18 +0400"
+    },
+    "done": true
+  },
+  "minecraft:adventure/root": {
+    "criteria": {
+      "killed_something": "2024-09-24 14:34:30 +0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/wheat": {
+    "criteria": {
+      "has_hay_block": "2024-09-24 14:45:12 +0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/target": {
+    "criteria": {
+      "has_hay_block": "2024-09-24 14:45:12 +0400"
+    },
+    "done": true
+  },
+  "jujutsucraft:observation_of_the_soul": {
+    "criteria": {
+      "observation_of_the_soul_0": "2024-09-24 17:33:21 +0400"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/root": {
+    "criteria": {
+      "consumed_item": "2024-09-24 17:33:21 +0400"
+    },
+    "done": true
+  },
+  "jujutsucraft:skill_cleave": {
+    "criteria": {
+      "skill_cleave_0": "2024-09-24 17:40:10 +0400"
+    },
+    "done": true
+  },
+  "jujutsucraft:skill_dismantle": {
+    "criteria": {
+      "skill_dismantle_0": "2024-09-24 17:40:10 +0400"
+    },
+    "done": true
+  },
+  "jujutsucraft:skill_sukuna": {
+    "criteria": {
+      "skill_sukuna_0": "2024-09-24 17:40:10 +0400"
+    },
+    "done": true
+  },
+  "jujutsucraft:skill_open": {
+    "criteria": {
+      "skill_open_0": "2024-09-24 17:40:10 +0400"
+    },
+    "done": true
+  },
+  "jujutsucraft:skill_flowing_red_scale": {
+    "criteria": {
+      "skill_flowing_red_scale_0": "2024-09-24 17:41:04 +0400"
+    },
+    "done": true
+  },
+  "jujutsucraft:skill_mahoraga_wheel": {
+    "criteria": {
+      "skill_mahoraga_wheel_0": "2024-09-24 17:41:04 +0400"
+    },
+    "done": true
+  },
+  "jujutsucraft:skill_great_serpent": {
+    "criteria": {
+      "skill_great_serpent_0": "2024-09-24 17:41:04 +0400"
+    },
+    "done": true
+  },
+  "jujutsucraft:skill_copy": {
+    "criteria": {
+      "skill_copy_0": "2024-09-24 17:41:04 +0400"
+    },
+    "done": true
+  },
+  "jujutsucraft:skill_flame_laser": {
+    "criteria": {
+      "skill_flame_laser_0": "2024-09-24 17:41:04 +0400"
+    },
+    "done": true
+  },
+  "jujutsucraft:skill_lava_waves": {
+    "criteria": {
+      "skill_lava_waves_0": "2024-09-24 17:41:04 +0400"
+    },
+    "done": true
+  },
+  "jujutsucraft:skill_uraume": {
+    "criteria": {
+      "skill_uraume_0": "2024-09-24 17:41:04 +0400"
+    },
+    "done": true
+  },
+  "jujutsucraft:skill_maximum_meteor": {
+    "criteria": {
+      "skill_maximum_meteor_0": "2024-09-24 17:41:04 +0400"
+    },
+    "done": true
+  },
+  "jujutsucraft:skill_piercing_ox": {
+    "criteria": {
+      "skill_piercing_ox_0": "2024-09-24 17:41:04 +0400"
+    },
+    "done": true
+  },
+  "jujutsucraft:skill_nanami": {
+    "criteria": {
+      "skill_nanami_0": "2024-09-24 17:41:04 +0400"
+    },
+    "done": true
+  },
+  "jujutsucraft:skill_max_elephant_piercing_blood": {
+    "criteria": {
+      "skill_max_elephant_piercing_blood_0": "2024-09-24 17:41:04 +0400"
+    },
+    "done": true
+  },
+  "jujutsucraft:skill_new_shadow_style_lv_1": {
+    "criteria": {
+      "skill_new_shadow_style_lv_1_0": "2024-09-24 17:41:04 +0400"
+    },
+    "done": true
+  },
+  "jujutsucraft:skill_copy_dhruv_lakdawalla": {
+    "criteria": {
+      "skill_copy_dhruv_lakdawalla_0": "2024-09-24 17:41:04 +0400"
+    },
+    "done": true
+  },
+  "jujutsucraft:skill_new_shadow_style_lv_2": {
+    "criteria": {
+      "skill_new_shadow_style_lv_2_0": "2024-09-24 17:41:04 +0400"
+    },
+    "done": true
+  },
+  "jujutsucraft:skill_new_shadow_style_lv_3": {
+    "criteria": {
+      "skill_new_shadow_style_lv_3_0": "2024-09-24 17:41:04 +0400"
+    },
+    "done": true
+  },
+  "jujutsucraft:skill_new_shadow_style_lv_4": {
+    "criteria": {
+      "skill_new_shadow_style_lv_4_0": "2024-09-24 17:41:04 +0400"
+    },
+    "done": true
+  },
+  "jujutsucraft:skill_toad": {
+    "criteria": {
+      "skill_toad_0": "2024-09-24 17:41:04 +0400"
+    },
+    "done": true
+  },
+  "jujutsucraft:skill_black_bird_manipulation": {
+    "criteria": {
+      "skill_black_bird_manipulation_0": "2024-09-24 17:41:04 +0400"
+    },
+    "done": true
+  },
+  "jujutsucraft:skill_new_shadow_style": {
+    "criteria": {
+      "skill_new_shadow_style_0": "2024-09-24 17:41:04 +0400"
+    },
+    "done": true
+  },
+  "jujutsucraft:skill_supernova": {
+    "criteria": {
+      "skill_supernova_0": "2024-09-24 17:41:04 +0400"
+    },
+    "done": true
+  },
+  "jujutsucraft:skill_instant_spirit_bodyof_distorted_killing": {
+    "criteria": {
+      "skill_instant_spirit_bodyof_distorted_killing_0": "2024-09-24 17:41:04 +0400"
+    },
+    "done": true
+  },
+  "jujutsucraft:skill_blood_manipulation": {
+    "criteria": {
+      "skill_blood_manipulation_0": "2024-09-24 17:41:04 +0400"
+    },
+    "done": true
+  },
+  "jujutsucraft:skill_piercing_blood": {
+    "criteria": {
+      "skill_piercing_blood_0": "2024-09-24 17:41:04 +0400"
+    },
+    "done": true
+  },
+  "jujutsucraft:skill_garuda": {
+    "criteria": {
+      "skill_garuda_0": "2024-09-24 17:41:04 +0400"
+    },
+    "done": true
+  },
+  "jujutsucraft:skill_copy_takako_uro": {
+    "criteria": {
+      "skill_copy_takako_uro_0": "2024-09-24 17:41:04 +0400"
+    },
+    "done": true
+  },
+  "jujutsucraft:skill_dagon": {
+    "criteria": {
+      "skill_dagon_0": "2024-09-24 17:41:04 +0400"
+    },
+    "done": true
+  },
+  "jujutsucraft:skill_infinity": {
+    "criteria": {
+      "skill_infinity_0": "2024-09-24 17:41:04 +0400"
+    },
+    "done": true
+  },
+  "jujutsucraft:skill_blood_wave": {
+    "criteria": {
+      "skill_blood_wave_0": "2024-09-24 17:41:04 +0400"
+    },
+    "done": true
+  },
+  "jujutsucraft:skill_bathynomus_giganteus": {
+    "criteria": {
+      "skill_bathynomus_giganteus_0": "2024-09-24 17:41:04 +0400"
+    },
+    "done": true
+  },
+  "jujutsucraft:skill_soul_multiplicity": {
+    "criteria": {
+      "skill_soul_multiplicity_0": "2024-09-24 17:41:04 +0400"
+    },
+    "done": true
+  },
+  "jujutsucraft:skill_hollow_technique_purple": {
+    "criteria": {
+      "skill_hollow_technique_purple_0": "2024-09-24 17:41:04 +0400"
+    },
+    "done": true
+  },
+  "jujutsucraft:skill_collapse": {
+    "criteria": {
+      "skill_collapse_0": "2024-09-24 17:41:04 +0400"
+    },
+    "done": true
+  },
+  "jujutsucraft:skill_mahito": {
+    "criteria": {
+      "skill_mahito_0": "2024-09-24 17:41:04 +0400"
+    },
+    "done": true
+  },
+  "jujutsucraft:skill_hanami": {
+    "criteria": {
+      "skill_hanami_0": "2024-09-24 17:41:04 +0400"
+    },
+    "done": true
+  },
+  "jujutsucraft:skill_nue": {
+    "criteria": {
+      "skill_nue_0": "2024-09-24 17:41:04 +0400"
+    },
+    "done": true
+  },
+  "jujutsucraft:skill_nue_titan": {
+    "criteria": {
+      "skill_nue_titan_0": "2024-09-24 17:41:04 +0400"
+    },
+    "done": true
+  },
+  "jujutsucraft:skill_ten_shadows_technique": {
+    "criteria": {
+      "skill_ten_shadows_technique_0": "2024-09-24 17:41:04 +0400"
+    },
+    "done": true
+  },
+  "jujutsucraft:skill_tiger_funeral": {
+    "criteria": {
+      "skill_tiger_funeral_0": "2024-09-24 17:41:04 +0400"
+    },
+    "done": true
+  },
+  "jujutsucraft:skill_dismantle_cut_the_world": {
+    "criteria": {
+      "skill_dismantle_cut_the_world_0": "2024-09-24 17:41:04 +0400"
+    },
+    "done": true
+  },
+  "jujutsucraft:skill_death_swarm": {
+    "criteria": {
+      "skill_death_swarm_0": "2024-09-24 17:41:04 +0400"
+    },
+    "done": true
+  },
+  "jujutsucraft:skill_divine_dogs": {
+    "criteria": {
+      "skill_divine_dogs_0": "2024-09-24 17:41:04 +0400"
+    },
+    "done": true
+  },
+  "jujutsucraft:skill_geto": {
+    "criteria": {
+      "skill_geto_0": "2024-09-24 17:41:04 +0400"
+    },
+    "done": true
+  },
+  "jujutsucraft:skill_tsukumo": {
+    "criteria": {
+      "skill_tsukumo_0": "2024-09-24 17:41:04 +0400"
+    },
+    "done": true
+  },
+  "jujutsucraft:skill_max_elephant": {
+    "criteria": {
+      "skill_max_elephant_0": "2024-09-24 17:41:04 +0400"
+    },
+    "done": true
+  },
+  "jujutsucraft:skill_round_deer": {
+    "criteria": {
+      "skill_round_deer_0": "2024-09-24 17:41:04 +0400"
+    },
+    "done": true
+  },
+  "jujutsucraft:skill_frost_calm": {
+    "criteria": {
+      "skill_frost_calm_0": "2024-09-24 17:41:04 +0400"
+    },
+    "done": true
+  },
+  "jujutsucraft:skill_curseis_lifted": {
+    "criteria": {
+      "skill_curseis_lifted_0": "2024-09-24 17:41:04 +0400"
+    },
+    "done": true
+  },
+  "jujutsucraft:skill_rabbit_escape": {
+    "criteria": {
+      "skill_rabbit_escape_0": "2024-09-24 17:41:04 +0400"
+    },
+    "done": true
+  },
+  "jujutsucraft:skill_disaster_flames": {
+    "criteria": {
+      "skill_disaster_flames_0": "2024-09-24 17:41:04 +0400"
+    },
+    "done": true
+  },
+  "jujutsucraft:skill_jogo": {
+    "criteria": {
+      "skill_jogo_0": "2024-09-24 17:41:04 +0400"
+    },
+    "done": true
+  },
+  "jujutsucraft:skill_convergence": {
+    "criteria": {
+      "skill_convergence_0": "2024-09-24 17:41:04 +0400"
+    },
+    "done": true
+  },
+  "jujutsucraft:skill_bird_strike": {
+    "criteria": {
+      "skill_bird_strike_0": "2024-09-24 17:41:04 +0400"
+    },
+    "done": true
+  },
+  "jujutsucraft:skill_cursed_technique_reversal_red": {
+    "criteria": {
+      "skill_cursed_technique_reversal_red_0": "2024-09-24 17:41:04 +0400"
+    },
+    "done": true
+  },
+  "jujutsucraft:skill_black_hole": {
+    "criteria": {
+      "skill_black_hole_0": "2024-09-24 17:41:04 +0400"
+    },
+    "done": true
+  },
+  "jujutsucraft:skill_huge_roots": {
+    "criteria": {
+      "skill_huge_roots_0": "2024-09-24 17:41:04 +0400"
+    },
+    "done": true
+  },
+  "jujutsucraft:skill_polymorphic_soul_isomer": {
+    "criteria": {
+      "skill_polymorphic_soul_isomer_0": "2024-09-24 17:41:04 +0400"
+    },
+    "done": true
+  },
+  "jujutsucraft:skill_maximum_uzumaki": {
+    "criteria": {
+      "skill_maximum_uzumaki_0": "2024-09-24 17:41:04 +0400"
+    },
+    "done": true
+  },
+  "jujutsucraft:skill_rika_control": {
+    "criteria": {
+      "skill_rika_control_0": "2024-09-24 17:41:04 +0400"
+    },
+    "done": true
+  },
+  "jujutsucraft:skill_icefall": {
+    "criteria": {
+      "skill_icefall_0": "2024-09-24 17:41:04 +0400"
+    },
+    "done": true
+  },
+  "jujutsucraft:skill_copy_cursed_speech": {
+    "criteria": {
+      "skill_copy_cursed_speech_0": "2024-09-24 17:41:04 +0400"
+    },
+    "done": true
+  },
+  "jujutsucraft:skill_explodethe_air": {
+    "criteria": {
+      "skill_explodethe_air_0": "2024-09-24 17:41:04 +0400"
+    },
+    "done": true
+  },
+  "jujutsucraft:skill_naoya": {
+    "criteria": {
+      "skill_naoya_0": "2024-09-24 17:41:04 +0400"
+    },
+    "done": true
+  },
+  "jujutsucraft:skill_garuda_soccer": {
+    "criteria": {
+      "skill_garuda_soccer_0": "2024-09-24 17:41:04 +0400"
+    },
+    "done": true
+  },
+  "jujutsucraft:skill_mahoraga": {
+    "criteria": {
+      "skill_mahoraga_0": "2024-09-24 17:41:04 +0400"
+    },
+    "done": true
+  },
+  "jujutsucraft:reverse_cursed_technique_1": {
+    "criteria": {
+      "reverse_cursed_technique_1_0": "2024-09-24 17:42:12 +0400"
+    },
+    "done": true
+  },
+  "jujutsucraft:reverse_cursed_technique_2": {
+    "criteria": {
+      "reverse_cursed_technique_2_0": "2024-09-24 17:45:39 +0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/chest": {
+    "criteria": {
+      "has_lots_of_items": "2024-09-24 18:04:28 +0400"
+    },
+    "done": true
+  },
+  "jujutsucraft:battle_jiro_awasaka": {
+    "criteria": {
+      "battle_jiro_awasaka_0": "2024-09-24 23:29:58 +0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/bone_meal": {
+    "criteria": {
+      "has_bone": "2024-09-28 20:53:31 +0400"
+    },
+    "done": true
+  },
+  "jujutsucraft:update": {
+    "criteria": {
+      "update_0": "2024-09-28 21:43:55 +0400"
+    },
+    "done": true
+  },
+  "jujutsucraft:battle_yuji_itadori_shinjuku": {
+    "criteria": {
+      "battle_yuji_itadori_shinjuku_0": "2024-09-28 21:43:29 +0400"
+    },
+    "done": true
+  },
+  "jujutsucraft:mastery_domain_amplification": {
+    "criteria": {
+      "mastery_domain_amplification_0": "2024-09-28 21:40:01 +0400"
+    },
+    "done": true
+  },
+  "DataVersion": 3465
+}

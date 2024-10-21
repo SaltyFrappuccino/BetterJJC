@@ -1,0 +1,1253 @@
+{
+  "mod_elements": [
+    {
+      "name": "BetterJJCWaterWalking",
+      "type": "gamerule",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "better_jjc_water_walking",
+      "metadata": {
+        "files": [],
+        "type": "logic"
+      },
+      "path": "~/WaterWalking"
+    },
+    {
+      "name": "WaterWalking",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "water_walking",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/betterjjc/procedures/WaterWalkingProcedure.java"
+        ],
+        "dependencies": []
+      },
+      "path": "~/WaterWalking"
+    },
+    {
+      "name": "FastDEKeyPressed",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fast_de_key_pressed",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/betterjjc/procedures/FastDEKeyPressedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Hotkeys/Fast DE"
+    },
+    {
+      "name": "FastDEHotkey",
+      "type": "keybind",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fast_de_hotkey",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/betterjjc/network/FastDEHotkeyMessage.java"
+        ]
+      },
+      "path": "~/Hotkeys/Fast DE"
+    },
+    {
+      "name": "PassiveSkillKeyPressed",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "passive_skill_key_pressed",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/betterjjc/procedures/PassiveSkillKeyPressedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Hotkeys/Passive Skills"
+    },
+    {
+      "name": "PassiveSkill",
+      "type": "keybind",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "passive_skill",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/betterjjc/network/PassiveSkillMessage.java"
+        ]
+      },
+      "path": "~/Hotkeys/Passive Skills"
+    },
+    {
+      "name": "FastAttack",
+      "type": "keybind",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fast_attack",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/betterjjc/network/FastAttackMessage.java"
+        ]
+      },
+      "path": "~/Hotkeys/Combat Skills"
+    },
+    {
+      "name": "FastAttackKeyPressed",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fast_attack_key_pressed",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/betterjjc/procedures/FastAttackKeyPressedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Hotkeys/Combat Skills"
+    },
+    {
+      "name": "FastKnockbackAttackKeyPressed",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fast_knockback_attack_key_pressed",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/betterjjc/procedures/FastKnockbackAttackKeyPressedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Hotkeys/Combat Skills"
+    },
+    {
+      "name": "FastKnockbackAttack",
+      "type": "keybind",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fast_knockback_attack",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/betterjjc/network/FastKnockbackAttackMessage.java"
+        ]
+      },
+      "path": "~/Hotkeys/Combat Skills"
+    },
+    {
+      "name": "FastBarrageAttackKeyPressed",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fast_barrage_attack_key_pressed",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/betterjjc/procedures/FastBarrageAttackKeyPressedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Hotkeys/Combat Skills"
+    },
+    {
+      "name": "FastBarrageAttack",
+      "type": "keybind",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fast_barrage_attack",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/betterjjc/network/FastBarrageAttackMessage.java"
+        ]
+      },
+      "path": "~/Hotkeys/Combat Skills"
+    },
+    {
+      "name": "SaveFastSkillKeyPressed",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "save_fast_skill_key_pressed",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/betterjjc/procedures/SaveFastSkillKeyPressedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Hotkeys/Technique Keys/Save"
+    },
+    {
+      "name": "SaveFastSkill",
+      "type": "keybind",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "save_fast_skill",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/betterjjc/network/SaveFastSkillMessage.java"
+        ]
+      },
+      "path": "~/Hotkeys/Technique Keys/Save"
+    },
+    {
+      "name": "ToggleCombatModeKeyPressed",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "toggle_combat_mode_key_pressed",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/betterjjc/procedures/ToggleCombatModeKeyPressedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Hotkeys/Technique Keys"
+    },
+    {
+      "name": "ToggleCombatMode",
+      "type": "keybind",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "toggle_combat_mode",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/betterjjc/network/ToggleCombatModeMessage.java"
+        ]
+      },
+      "path": "~/Hotkeys/Technique Keys"
+    },
+    {
+      "name": "SaveFastSkillKeyReleased",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "save_fast_skill_key_released",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/betterjjc/procedures/SaveFastSkillKeyReleasedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Hotkeys/Technique Keys/Save"
+    },
+    {
+      "name": "SaveFastSkill1KeyPressed",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "save_fast_skill_1_key_pressed",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/betterjjc/procedures/SaveFastSkill1KeyPressedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Hotkeys/Technique Keys"
+    },
+    {
+      "name": "SaveFastSkill1",
+      "type": "keybind",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "save_fast_skill_1",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/betterjjc/network/SaveFastSkill1Message.java"
+        ]
+      },
+      "path": "~/Hotkeys/Technique Keys"
+    },
+    {
+      "name": "SaveFastSkill2KeyPressed",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "save_fast_skill_2_key_pressed",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/betterjjc/procedures/SaveFastSkill2KeyPressedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Hotkeys/Technique Keys"
+    },
+    {
+      "name": "SaveFastSkill3KeyPressed",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "save_fast_skill_3_key_pressed",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/betterjjc/procedures/SaveFastSkill3KeyPressedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Hotkeys/Technique Keys"
+    },
+    {
+      "name": "SaveFastSkill4KeyPressed",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "save_fast_skill_4_key_pressed",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/betterjjc/procedures/SaveFastSkill4KeyPressedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Hotkeys/Technique Keys"
+    },
+    {
+      "name": "SaveFastSkill5KeyPressed",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "save_fast_skill_5_key_pressed",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/betterjjc/procedures/SaveFastSkill5KeyPressedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Hotkeys/Technique Keys"
+    },
+    {
+      "name": "SaveFastSkill2",
+      "type": "keybind",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "save_fast_skill_2",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/betterjjc/network/SaveFastSkill2Message.java"
+        ]
+      },
+      "path": "~/Hotkeys/Technique Keys"
+    },
+    {
+      "name": "SaveFastSkill3",
+      "type": "keybind",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "save_fast_skill_3",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/betterjjc/network/SaveFastSkill3Message.java"
+        ]
+      },
+      "path": "~/Hotkeys/Technique Keys"
+    },
+    {
+      "name": "SaveFastSkill4",
+      "type": "keybind",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "save_fast_skill_4",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/betterjjc/network/SaveFastSkill4Message.java"
+        ]
+      },
+      "path": "~/Hotkeys/Technique Keys"
+    },
+    {
+      "name": "BetterJJCRCTFatigue",
+      "type": "gamerule",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "better_jjcrct_fatigue",
+      "metadata": {
+        "files": [],
+        "type": "logic"
+      },
+      "path": "~/NoRCTFatigue"
+    },
+    {
+      "name": "RCTFatigue",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rct_fatigue",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/betterjjc/procedures/RCTFatigueProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/NoRCTFatigue"
+    },
+    {
+      "name": "WaterWalkingGameruleFix",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "water_walking_gamerule_fix",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/betterjjc/procedures/WaterWalkingGameruleFixProcedure.java"
+        ],
+        "dependencies": []
+      },
+      "path": "~/WaterWalking"
+    },
+    {
+      "name": "CombatModeSpectatorFix",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "combat_mode_spectator_fix",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/betterjjc/procedures/CombatModeSpectatorFixProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Hotkeys/Technique Keys"
+    },
+    {
+      "name": "SukunaWorldCutKeyPressed",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sukuna_world_cut_key_pressed",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/betterjjc/procedures/SukunaWorldCutKeyPressedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Advanced Techniques/Sukuna"
+    },
+    {
+      "name": "WorldCutPower",
+      "type": "gamerule",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "world_cut_power",
+      "metadata": {
+        "files": [],
+        "type": "number"
+      },
+      "path": "~/Advanced Techniques/Sukuna"
+    },
+    {
+      "name": "BetterJJCAirCombat",
+      "type": "gamerule",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "better_jjc_air_combat",
+      "metadata": {
+        "files": [],
+        "type": "logic"
+      },
+      "path": "~/AirCombat"
+    },
+    {
+      "name": "AirCombat",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "air_combat",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/betterjjc/procedures/AirCombatProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/AirCombat"
+    },
+    {
+      "name": "BetterJJCGojoFlight",
+      "type": "gamerule",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "better_jjc_gojo_flight",
+      "metadata": {
+        "files": [],
+        "type": "logic"
+      },
+      "path": "~/Advanced Techniques/Gojo"
+    },
+    {
+      "name": "GojoFlight",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gojo_flight",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/betterjjc/procedures/GojoFlightProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Advanced Techniques/Gojo"
+    },
+    {
+      "name": "SpecialMoveOnKeyPressed",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "special_move_on_key_pressed",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/betterjjc/procedures/SpecialMoveOnKeyPressedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Advanced Techniques"
+    },
+    {
+      "name": "SpecialMove",
+      "type": "keybind",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "special_move",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/betterjjc/network/SpecialMoveMessage.java"
+        ]
+      },
+      "path": "~/Advanced Techniques"
+    },
+    {
+      "name": "SacrificeShikigamiesForAgito",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sacrifice_shikigamies_for_agito",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/betterjjc/procedures/SacrificeShikigamiesForAgitoProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Advanced Techniques/Megumi"
+    },
+    {
+      "name": "ShikigamiesAfterAgitoReturns",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shikigamies_after_agito_returns",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/betterjjc/procedures/ShikigamiesAfterAgitoReturnsProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Advanced Techniques/Megumi"
+    },
+    {
+      "name": "ShikigamiesAfterTotalityReturns",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shikigamies_after_totality_returns",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/betterjjc/procedures/ShikigamiesAfterTotalityReturnsProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Advanced Techniques/Megumi"
+    },
+    {
+      "name": "SacrificeShikigamiesForTotality",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sacrifice_shikigamies_for_totality",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/betterjjc/procedures/SacrificeShikigamiesForTotalityProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Advanced Techniques/Megumi"
+    },
+    {
+      "name": "MegumiSpecialMove",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "megumi_special_move",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/betterjjc/procedures/MegumiSpecialMoveProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Advanced Techniques/Megumi"
+    },
+    {
+      "name": "DebugKeyPressed",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "debug_key_pressed",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/betterjjc/procedures/DebugKeyPressedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Debug"
+    },
+    {
+      "name": "Debug",
+      "type": "keybind",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "debug",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/betterjjc/network/DebugMessage.java"
+        ]
+      },
+      "path": "~/Debug"
+    },
+    {
+      "name": "BreakConcentrationSukunaDismantle",
+      "type": "gamerule",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "break_concentration_sukuna_dismantle",
+      "metadata": {
+        "files": [],
+        "type": "logic"
+      },
+      "path": "~/BreakConcetration/BreakConcenctrationSukuna"
+    },
+    {
+      "name": "BreakConcentrationSukunaFuuga",
+      "type": "gamerule",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "break_concentration_sukuna_fuuga",
+      "metadata": {
+        "files": [],
+        "type": "logic"
+      },
+      "path": "~/BreakConcetration/BreakConcenctrationSukuna"
+    },
+    {
+      "name": "BreakConcentrationSukuna",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "break_concentration_sukuna",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/betterjjc/procedures/BreakConcentrationSukunaProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/BreakConcetration/BreakConcenctrationSukuna"
+    },
+    {
+      "name": "BetterJJCShowDamage",
+      "type": "gamerule",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "better_jjc_show_damage",
+      "metadata": {
+        "files": [],
+        "type": "logic"
+      },
+      "path": "~/TextDamage"
+    },
+    {
+      "name": "ShowDamage",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "show_damage",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/betterjjc/procedures/ShowDamageProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "amount",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/TextDamage"
+    },
+    {
+      "name": "BreakConcentrationGojoRed",
+      "type": "gamerule",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "break_concentration_gojo_red",
+      "metadata": {
+        "files": [],
+        "type": "logic"
+      },
+      "path": "~/BreakConcetration/Gojo"
+    },
+    {
+      "name": "BreakConcenctrationGojoHollowPurple",
+      "type": "gamerule",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "break_concenctration_gojo_hollow_purple",
+      "metadata": {
+        "files": [],
+        "type": "logic"
+      },
+      "path": "~/BreakConcetration/Gojo"
+    },
+    {
+      "name": "BreakConcentrationGojo",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "break_concentration_gojo",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/betterjjc/procedures/BreakConcentrationGojoProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/BreakConcetration/Gojo"
+    }
+  ],
+  "variable_elements": [
+    {
+      "name": "WaterWalking",
+      "type": "logic",
+      "scope": "map",
+      "value": "false"
+    }
+  ],
+  "sound_elements": [],
+  "tag_elements": {},
+  "language_map": {
+    "en_us": {
+      "gamerule.betterJJCWaterWalking": "Water Walking",
+      "key.betterjjc.fast_attack": "Fast Attack",
+      "gamerule.breakConcentrationGojoRed.description": "Enable/Disable Break Concentration for Gojo\u0027s Red",
+      "gamerule.betterJJCShowDamage.description": "Enable/Disable Showing Damage in chat",
+      "key.betterjjc.save_fast_skill": "Save Fast Skill",
+      "gamerule.betterJJCShowDamage": "Show Damage",
+      "key.categories.betterjjc_fastskills": "BetterJJC Combat Mode",
+      "key.categories.betterjjc": "BetterJJC",
+      "key.betterjjc.fast_de_hotkey": "Fast DE",
+      "gamerule.breakConcentrationSukunaDismantle.description": "Enable/Disable Break Concentration for Sukuna Fuuga",
+      "gamerule.breakConcenctrationGojoHollowPurple.description": "Enable/Disable Break Concentration for Gojo\u0027s Hollow Purple",
+      "gamerule.breakConcentrationSukunaFuuga.description": "Enable/Disable Break Concentration for Sukuna Dismantle",
+      "key.betterjjc.debug": "Debug",
+      "key.betterjjc.fast_knockback_attack": "Fast Knockback Attack",
+      "key.betterjjc.save_fast_skill_1": "Save Fast Skill 1",
+      "key.betterjjc.save_fast_skill_2": "Save Fast Skill 2",
+      "key.betterjjc.save_fast_skill_3": "Save Fast Skill 3",
+      "key.betterjjc.save_fast_skill_4": "Save Fast Skill 4",
+      "gamerule.breakConcenctrationGojoHollowPurple": "Break Concentration Gojo Hollow Purple",
+      "key.betterjjc.passive_skill": "Passive Skill",
+      "key.betterjjc.special_move": "Special Move",
+      "gamerule.breakConcentrationSukunaFuuga": "Break Concentration Sukuna Dismantle",
+      "gamerule.betterJJCGojoFlight": "Gojo Flight",
+      "gamerule.breakConcentrationGojoRed": "Break Concentration Gojo Red",
+      "gamerule.breakConcentrationSukunaDismantle": "Break Concentration Sukuna Fuuga",
+      "gamerule.betterJJCRCTFatigue": "RCT Fatigue",
+      "key.betterjjc.fast_barrage_attack": "Fast Barrage Attack",
+      "gamerule.betterJJCWaterWalking.description": "Enable/Disable Walking on liquids",
+      "gamerule.worldCutPower.description": "Set world cut power",
+      "gamerule.betterJJCAirCombat": "Air Combat",
+      "gamerule.betterJJCGojoFlight.description": "Enable/Disable flying for Gojo\u0027s CT",
+      "gamerule.worldCutPower": "World Cut Power",
+      "gamerule.betterJJCAirCombat.description": "Enable/Disable multiple jumps for One/Special Grades",
+      "key.categories.jujutsu_craft": "Jujutsu Craft",
+      "key.betterjjc.toggle_combat_mode": "Toggle Combat Mode",
+      "gamerule.betterJJCRCTFatigue.description": "Enable/Disable RCT Fatigue from Jujutsu Craft"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "Hotkeys",
+        "children": [
+          {
+            "name": "Fast DE",
+            "children": []
+          },
+          {
+            "name": "Passive Skills",
+            "children": []
+          },
+          {
+            "name": "Combat Skills",
+            "children": []
+          },
+          {
+            "name": "Technique Keys",
+            "children": [
+              {
+                "name": "Save",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "WaterWalking",
+        "children": []
+      },
+      {
+        "name": "NoHollowPurple",
+        "children": []
+      },
+      {
+        "name": "Advanced Techniques",
+        "children": [
+          {
+            "name": "Megumi",
+            "children": []
+          },
+          {
+            "name": "Sukuna",
+            "children": []
+          },
+          {
+            "name": "Gojo",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "NoRCTFatigue",
+        "children": []
+      },
+      {
+        "name": "AirCombat",
+        "children": []
+      },
+      {
+        "name": "Debug",
+        "children": []
+      },
+      {
+        "name": "BreakConcetration",
+        "children": [
+          {
+            "name": "BreakConcenctrationSukuna",
+            "children": []
+          },
+          {
+            "name": "Gojo",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "TextDamage",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "betterjjc",
+    "modName": "BetterJJC",
+    "version": "1.1.1",
+    "description": "Better JJC - Addon for Jujutsu Craft",
+    "author": "SaltyFrappuccino",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [
+      "ftb-library-forge",
+      "architectury-api",
+      "jujutsucraft",
+      "embeddium",
+      "geckolib",
+      "playeranimator"
+    ],
+    "currentGenerator": "forge-1.20.1",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.betterjjc"
+  },
+  "mcreatorVersion": 202400118518
+}

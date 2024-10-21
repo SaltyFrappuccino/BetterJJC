@@ -1,0 +1,12 @@
+{
+  "_fv": 60,
+  "_type": "keybind",
+  "definition": {
+    "triggerKey": "K",
+    "keyBindingName": "Fast Knockback Attack",
+    "keyBindingCategoryKey": "betterjjc",
+    "onKeyPressed": {
+      "name": "FastKnockbackAttackKeyPressed"
+    }
+  }
+}
