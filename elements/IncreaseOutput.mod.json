@@ -1,0 +1,12 @@
+{
+  "_fv": 69,
+  "_type": "keybind",
+  "definition": {
+    "triggerKey": "Y",
+    "keyBindingName": "Increase Output",
+    "keyBindingCategoryKey": "betterjjc",
+    "onKeyPressed": {
+      "name": "IncreaseOutputKeyPressed"
+    }
+  }
+}

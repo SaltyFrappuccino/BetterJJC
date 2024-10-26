@@ -1,0 +1,12 @@
+{
+  "_fv": 69,
+  "_type": "gamerule",
+  "definition": {
+    "type": "Number",
+    "displayName": "Increase Output Cost",
+    "description": "How much, as a percentage of the original cost, will it cost. The default value is 100, which means that increasing the Emission of Equipment by 1 for Equipment priced at 100 CP will cost another 100 CP.",
+    "category": "PLAYER",
+    "defaultValueLogic": false,
+    "defaultValueNumber": 100
+  }
+}

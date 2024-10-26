@@ -11,10 +11,14 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.chat.Component;
 import net.minecraft.core.BlockPos;
 
+import net.mcreator.jujutsucraft.network.JujutsucraftModVariables;
+
 public class DebugKeyPressedProcedure {
 	public static void execute(LevelAccessor world, double x, double y, double z, Entity entity) {
 		if (entity == null)
 			return;
+		if (entity instanceof Player _player && !_player.level().isClientSide())
+			_player.displayClientMessage(Component.literal(("DE Raidus:" + JujutsucraftModVariables.MapVariables.get(world).DomainExpansionRadius)), false);
 		if (entity instanceof Player _player && !_player.level().isClientSide())
 			_player.displayClientMessage(Component.literal(("skill: " + entity.getPersistentData().getDouble("skill"))), false);
 		if (entity instanceof Player _player && !_player.level().isClientSide())

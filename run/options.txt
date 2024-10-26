@@ -95,7 +95,7 @@ key_key.sneak:key.keyboard.left.shift
 key_key.sprint:key.keyboard.left.control
 key_key.drop:key.keyboard.q
 key_key.inventory:key.keyboard.e
-key_key.chat:key.keyboard.apostrophe
+key_key.chat:key.keyboard.t
 key_key.playerlist:key.keyboard.tab
 key_key.pickItem:key.mouse.middle
 key_key.command:key.keyboard.slash
@@ -120,9 +120,9 @@ key_key.hotbar.8:key.keyboard.8
 key_key.hotbar.9:key.keyboard.9
 key_key.betterjjc.fast_de_hotkey:key.keyboard.v
 key_key.betterjjc.passive_skill:key.keyboard.c
-key_key.betterjjc.fast_attack:key.mouse.4
+key_key.betterjjc.fast_attack:key.keyboard.h
 key_key.betterjjc.fast_knockback_attack:key.keyboard.k
-key_key.betterjjc.fast_barrage_attack:key.keyboard.b
+key_key.betterjjc.fast_barrage_attack:key.keyboard.l
 key_key.betterjjc.save_fast_skill:key.keyboard.i
 key_key.betterjjc.toggle_combat_mode:key.keyboard.o
 key_key.betterjjc.save_fast_skill_1:key.keyboard.1
@@ -131,6 +131,7 @@ key_key.betterjjc.save_fast_skill_3:key.keyboard.3
 key_key.betterjjc.save_fast_skill_4:key.keyboard.4
 key_key.betterjjc.special_move:key.keyboard.t
 key_key.betterjjc.debug:key.keyboard.f4
+key_key.betterjjc.increase_output:key.keyboard.y
 key_key.jujutsucraft.key_change_technique:key.keyboard.r
 key_key.jujutsucraft.key_start_technique:key.mouse.5
 key_key.jujutsucraft.key_simple_domain:key.keyboard.g
@@ -140,8 +141,8 @@ key_key.jujutsucraft.key_backstep:key.keyboard.s
 key_key.jujutsucraft.key_domain_amplification:key.keyboard.n
 key_key.jujutsucraft.key_space:key.keyboard.space
 key_key.jujutsucraft.key_forward:key.keyboard.w
-soundCategory_master:0.050496688741721855
-soundCategory_music:0.007042253521126761
+soundCategory_master:0.06291390728476821
+soundCategory_music:0.016431924882629075
 soundCategory_record:1.0
 soundCategory_weather:1.0
 soundCategory_block:1.0

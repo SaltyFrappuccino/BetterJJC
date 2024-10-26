@@ -1,380 +1,120 @@
-[28сент.2024 21:37:48.108] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeclientuserdev, --version, MOD_DEV, --assetIndex, 5, --assetsDir, C:\Users\SaltyFrappuccino\.mcreator\gradle\caches\forge_gradle\assets, --gameDir, ., --fml.forgeVersion, 47.2.0, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412]
-[28сент.2024 21:37:48.119] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.10 by Eclipse Adoptium; OS Windows 10 arch amd64 version 10.0
-[28сент.2024 21:37:48.490] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: Loading ImmediateWindowProvider fmlearlywindow
-[28сент.2024 21:37:48.676] [main/INFO] [EARLYDISPLAY/]: Trying GL version 4.6
-[28сент.2024 21:37:49.016] [main/INFO] [EARLYDISPLAY/]: Requested GL version 4.6 got version 4.6
-[28сент.2024 21:37:49.229] [pool-2-thread-1/INFO] [EARLYDISPLAY/]: GL info: Intel(R) UHD Graphics GL version 4.6.0 - Build 31.0.101.4314, Intel
-[28сент.2024 21:37:49.238] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/SaltyFrappuccino/.mcreator/gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.5/9d1c0c3a304ae6697ecd477218fa61b850bf57fc/mixin-0.8.5.jar%23128!/ Service=ModLauncher Env=CLIENT
-[28сент.2024 21:37:50.305] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\SaltyFrappuccino\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\javafmllanguage\1.20.1-47.2.0\7f9181f85acc66547685a72020713fc8cbde98\javafmllanguage-1.20.1-47.2.0.jar is missing mods.toml file
-[28сент.2024 21:37:50.399] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\SaltyFrappuccino\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\lowcodelanguage\1.20.1-47.2.0\7872f5205685fdd26fae39b1be79b0e60ca5b7bd\lowcodelanguage-1.20.1-47.2.0.jar is missing mods.toml file
-[28сент.2024 21:37:50.429] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\SaltyFrappuccino\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\mclanguage\1.20.1-47.2.0\d501d161cabed08b3c139a2c6217b02a39f3c3e9\mclanguage-1.20.1-47.2.0.jar is missing mods.toml file
-[28сент.2024 21:37:50.450] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\SaltyFrappuccino\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlcore\1.20.1-47.2.0\ffd3c6debac0a388c9e33ac43c9f5eafb91cb466\fmlcore-1.20.1-47.2.0.jar is missing mods.toml file
-[28сент.2024 21:37:51.088] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 3 dependencies adding them to mods collection
-[28сент.2024 21:37:55.182] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
-[28сент.2024 21:37:55.211] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeclientuserdev' with arguments [--version, MOD_DEV, --gameDir, ., --assetsDir, C:\Users\SaltyFrappuccino\.mcreator\gradle\caches\forge_gradle\assets, --assetIndex, 5]
-[28сент.2024 21:37:55.690] [main/INFO] [mixin/]: Remapping refMap ftb-library-common-refmap.json using C:\Users\SaltyFrappuccino\MCreatorWorkspaces\betterjjc/build/createSrgToMcp/output.srg
-[28сент.2024 21:37:55.712] [main/INFO] [Embeddium/]: Loaded configuration file for Embeddium: 55 options available, 0 override(s) found
-[28сент.2024 21:37:55.717] [main/INFO] [Embeddium-GraphicsAdapterProbe/]: Searching for graphics cards...
-[28сент.2024 21:37:56.108] [main/INFO] [Embeddium-GraphicsAdapterProbe/]: Found graphics card: GraphicsAdapterInfo[vendor=INTEL, name=Intel(R) UHD Graphics, version=DriverVersion=31.0.101.4314]
-[28сент.2024 21:37:56.125] [main/INFO] [mixin/]: Remapping refMap embeddium-refmap.json using C:\Users\SaltyFrappuccino\MCreatorWorkspaces\betterjjc/build/createSrgToMcp/output.srg
-[28сент.2024 21:37:56.127] [main/INFO] [mixin/]: Remapping refMap geckolib.refmap.json using C:\Users\SaltyFrappuccino\MCreatorWorkspaces\betterjjc/build/createSrgToMcp/output.srg
-[28сент.2024 21:37:56.130] [main/INFO] [mixin/]: Remapping refMap architectury-forge-refmap.json using C:\Users\SaltyFrappuccino\MCreatorWorkspaces\betterjjc/build/createSrgToMcp/output.srg
-[28сент.2024 21:37:56.133] [main/INFO] [mixin/]: Remapping refMap architectury-common-refmap.json using C:\Users\SaltyFrappuccino\MCreatorWorkspaces\betterjjc/build/createSrgToMcp/output.srg
-[28сент.2024 21:37:56.139] [main/INFO] [mixin/]: Remapping refMap player-animation-lib-minecraft_common-refmap.json using C:\Users\SaltyFrappuccino\MCreatorWorkspaces\betterjjc/build/createSrgToMcp/output.srg
-[28сент.2024 21:37:57.646] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.5).
-[28сент.2024 21:38:03.651] [Datafixer Bootstrap/INFO] [com.mojang.datafixers.DataFixerBuilder/]: 188 Datafixer optimizations took 273 milliseconds
-[28сент.2024 21:38:06.316] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/SaltyFrappuccino/.mcreator/gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.2.0_mapped_official_1.20.1/forge-1.20.1-47.2.0_mapped_official_1.20.1-recomp.jar%23191!/assets/.mcassetsroot' uses unexpected schema
-[28сент.2024 21:38:06.317] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/SaltyFrappuccino/.mcreator/gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.2.0_mapped_official_1.20.1/forge-1.20.1-47.2.0_mapped_official_1.20.1-recomp.jar%23191!/data/.mcassetsroot' uses unexpected schema
-[28сент.2024 21:38:06.452] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[28сент.2024 21:38:06.470] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev
-[28сент.2024 21:38:06.720] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.3.1 build 7
-[28сент.2024 21:38:06.921] [Render thread/INFO] [Embeddium-PostlaunchChecks/]: OpenGL Vendor: Intel
-[28сент.2024 21:38:06.921] [Render thread/INFO] [Embeddium-PostlaunchChecks/]: OpenGL Renderer: Intel(R) UHD Graphics
-[28сент.2024 21:38:06.921] [Render thread/INFO] [Embeddium-PostlaunchChecks/]: OpenGL Version: 4.6.0 - Build 31.0.101.4314
-[28сент.2024 21:38:07.497] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.2.0, for MC 1.20.1 with MCP 20230612.114412
-[28сент.2024 21:38:07.502] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.2.0 Initialized
-[28сент.2024 21:38:07.588] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering S2C receiver with id architectury:sync_ids
-[28сент.2024 21:38:07.590] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id architectury:sync_ids
-[28сент.2024 21:38:07.591] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering S2C receiver with id ftblibrary:edit_nbt
-[28сент.2024 21:38:07.604] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftblibrary:edit_nbt_response
-[28сент.2024 21:38:07.606] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering S2C receiver with id ftblibrary:sync_known_server_registries
-[28сент.2024 21:38:07.606] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering S2C receiver with id ftblibrary:edit_config
-[28сент.2024 21:38:10.958] [Render thread/INFO] [net.minecraftforge.gametest.ForgeGameTestHooks/]: Enabled Gametest Namespaces: []
-[28сент.2024 21:38:12.007] [Render thread/INFO] [net.minecraft.server.packs.resources.ReloadableResourceManager/]: Reloading ResourceManager: vanilla, mod_resources
-[28сент.2024 21:38:12.313] [Worker-Main-7/ERROR] [software.bernie.geckolib.GeckoLib/]: Unable to parse animation: sprint2
-[28сент.2024 21:38:12.556] [Worker-Main-4/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_all_no_pua-15.0.06.hex, loading
-[28сент.2024 21:38:12.680] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[28сент.2024 21:38:12.754] [Worker-Main-7/WARN] [net.minecraft.client.sounds.SoundManager/]: File jujutsucraft:sounds/guard.ogg does not exist, cannot add it to event jujutsucraft:guard
-[28сент.2024 21:38:14.031] [Worker-Main-5/WARN] [net.minecraft.client.renderer.texture.SpriteLoader/]: Texture jujutsucraft:item/icon_sword with size 18x18 limits mip level from 2 to 1
-[28сент.2024 21:38:14.068] [Worker-Main-5/WARN] [net.minecraft.client.renderer.texture.SpriteLoader/]: Texture jujutsucraft:item/icon_clothes_uraume_leggins with size 32x31 limits mip level from 1 to 0
-[28сент.2024 21:38:15.180] [Worker-Main-2/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'minecraft:amanosakahoko' referenced from: jujutsucraft:inverted_spear_of_heaven#inventory: java.io.FileNotFoundException: minecraft:models/amanosakahoko.json
-[28сент.2024 21:38:15.181] [Worker-Main-2/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'minecraft:loudspeaker_inumaki' referenced from: jujutsucraft:loudspeaker#inventory: java.io.FileNotFoundException: minecraft:models/loudspeaker_inumaki.json
-[28сент.2024 21:38:15.181] [Worker-Main-2/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'minecraft:jugu' referenced from: jujutsucraft:sword_black#inventory: java.io.FileNotFoundException: minecraft:models/jugu.json
-[28сент.2024 21:38:15.181] [Worker-Main-2/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'minecraft:yuuun' referenced from: jujutsucraft:playful_cloud#inventory: java.io.FileNotFoundException: minecraft:models/yuuun.json
-[28сент.2024 21:38:15.182] [Worker-Main-2/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'minecraft:mahito_hand1' referenced from: jujutsucraft:mahito_hand_1#inventory: java.io.FileNotFoundException: minecraft:models/mahito_hand1.json
-[28сент.2024 21:38:15.182] [Worker-Main-2/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'minecraft:hanami_hand' referenced from: jujutsucraft:hanami_hand#inventory: java.io.FileNotFoundException: minecraft:models/hanami_hand.json
-[28сент.2024 21:38:15.182] [Worker-Main-2/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'minecraft:nichirintou2' referenced from: jujutsucraft:dragon_bone#inventory: java.io.FileNotFoundException: minecraft:models/nichirintou2.json
-[28сент.2024 21:38:15.183] [Worker-Main-2/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'minecraft:gavel_big' referenced from: jujutsucraft:gavel_long#inventory: java.io.FileNotFoundException: minecraft:models/gavel_big.json
-[28сент.2024 21:38:15.183] [Worker-Main-2/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'minecraft:black_rope' referenced from: jujutsucraft:black_rope#inventory: java.io.FileNotFoundException: minecraft:models/black_rope.json
-[28сент.2024 21:38:15.184] [Worker-Main-2/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'minecraft:broom' referenced from: jujutsucraft:broom#inventory: java.io.FileNotFoundException: minecraft:models/broom.json
-[28сент.2024 21:38:18.122] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:item.goat_horn.play
-[28сент.2024 21:38:18.122] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
-[28сент.2024 21:38:18.363] [Render thread/INFO] [com.mojang.blaze3d.audio.Library/]: OpenAL initialized on device OpenAL Soft on Наушники (EDIFIER WH700NB Stereo)
-[28сент.2024 21:38:18.369] [Render thread/INFO] [net.minecraft.client.sounds.SoundEngine/SOUNDS]: Sound engine started
-[28сент.2024 21:38:18.586] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 2048x1024x2 minecraft:textures/atlas/blocks.png-atlas
-[28сент.2024 21:38:18.919] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x2 minecraft:textures/atlas/signs.png-atlas
-[28сент.2024 21:38:18.921] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x2 minecraft:textures/atlas/banner_patterns.png-atlas
-[28сент.2024 21:38:18.925] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x2 minecraft:textures/atlas/shield_patterns.png-atlas
-[28сент.2024 21:38:18.930] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x1024x2 minecraft:textures/atlas/armor_trims.png-atlas
-[28сент.2024 21:38:18.976] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x2 minecraft:textures/atlas/chest.png-atlas
-[28сент.2024 21:38:18.977] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x64x2 minecraft:textures/atlas/decorated_pot.png-atlas
-[28сент.2024 21:38:18.979] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x2 minecraft:textures/atlas/shulker_boxes.png-atlas
-[28сент.2024 21:38:18.981] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x2 minecraft:textures/atlas/beds.png-atlas
-[28сент.2024 21:38:19.408] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
-[28сент.2024 21:38:19.563] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 2048x2048x0 minecraft:textures/atlas/particles.png-atlas
-[28сент.2024 21:38:19.675] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
-[28сент.2024 21:38:19.680] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x0 minecraft:textures/atlas/mob_effects.png-atlas
-[28сент.2024 21:38:20.504] [Realms Notification Availability checker #1/INFO] [com.mojang.realmsclient.client.RealmsClient/]: Could not authorize you against Realms server: Invalid session id
-[28сент.2024 21:38:21.643] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.2.0 Target: 47.3.0
-[28сент.2024 21:38:26.110] [Render thread/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: Injecting existing registry data into this CLIENT instance
-[28сент.2024 21:38:29.219] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 7 recipes
-[28сент.2024 21:38:29.389] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1483 advancements
-[28сент.2024 21:38:29.935] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Starting integrated minecraft server version 1.20.1
-[28сент.2024 21:38:29.936] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[28сент.2024 21:38:31.725] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[28сент.2024 21:38:35.146] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Подготовка области возрождения: 0%
-[28сент.2024 21:38:35.184] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Подготовка области возрождения: 0%
-[28сент.2024 21:38:35.184] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Подготовка области возрождения: 0%
-[28сент.2024 21:38:35.202] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Подготовка области возрождения: 0%
-[28сент.2024 21:38:35.221] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Подготовка области возрождения: 0%
-[28сент.2024 21:38:35.221] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Подготовка области возрождения: 0%
-[28сент.2024 21:38:35.240] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Подготовка области возрождения: 0%
-[28сент.2024 21:38:35.258] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Подготовка области возрождения: 0%
-[28сент.2024 21:38:35.752] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Подготовка области возрождения: 0%
-[28сент.2024 21:38:36.259] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Подготовка области возрождения: 10%
-[28сент.2024 21:38:36.755] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Подготовка области возрождения: 86%
-[28сент.2024 21:38:36.958] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
-[28сент.2024 21:38:36.960] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 5218 ms
-[28сент.2024 21:38:37.438] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing view distance to 5, from 10
-[28сент.2024 21:38:37.442] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing simulation distance to 12, from 0
-[28сент.2024 21:38:37.730] [Render thread/WARN] [io.netty.util.internal.SystemPropertyUtil/]: Unable to parse the boolean system property 'java.net.preferIPv6Addresses':system - using the default value: false
-[28сент.2024 21:38:38.419] [Netty Local Client IO #0/INFO] [net.minecraftforge.network.NetworkHooks/]: Connected to a modded server.
-[28сент.2024 21:38:38.540] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Dev[local:E:0e217554] logged in with entity id 75 at (44.98885522582272, 70.0, -44.17567273411575)
-[28сент.2024 21:38:38.644] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev присоединился к игре
-[28сент.2024 21:38:38.801] [Render thread/INFO] [ChunkBuilder/]: Started 2 worker threads
-[28сент.2024 21:38:39.723] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 178 advancements
-[28сент.2024 21:38:41.163] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
-[28сент.2024 21:38:41.190] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Новый мир]'/minecraft:overworld
-[28сент.2024 21:38:41.218] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Новый мир]'/jujutsucraft:cursed_spirit_manipulation_dimension
-[28сент.2024 21:38:41.242] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Новый мир]'/minecraft:the_end
-[28сент.2024 21:38:41.244] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Новый мир]'/minecraft:the_nether
-[28сент.2024 21:38:50.636] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] "DRAGON SCALES"
-[28сент.2024 21:38:50.724] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] You dealt 61 damage
-[28сент.2024 21:38:51.677] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] "REPULSION"
-[28сент.2024 21:38:52.721] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] "PAIR OF METEOR"
-[28сент.2024 21:38:53.973] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] You get 13 damage
-[28сент.2024 21:38:54.227] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] You get 17 damage
-[28сент.2024 21:38:57.029] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] You get 25 damage
-[28сент.2024 21:38:59.029] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] You get 17 damage
-[28сент.2024 21:38:59.531] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] You get 17 damage
-[28сент.2024 21:39:00.983] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] You get 21 damage
-[28сент.2024 21:39:01.512] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
-[28сент.2024 21:39:01.533] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Новый мир]'/minecraft:overworld
-[28сент.2024 21:39:01.541] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Новый мир]'/jujutsucraft:cursed_spirit_manipulation_dimension
-[28сент.2024 21:39:01.544] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Новый мир]'/minecraft:the_end
-[28сент.2024 21:39:01.548] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Новый мир]'/minecraft:the_nether
-[28сент.2024 21:39:02.478] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] You dealt 233 damage
-[28сент.2024 21:39:03.624] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] skill: 0.0
-[28сент.2024 21:39:03.625] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] cnt1: 0.0
-[28сент.2024 21:39:03.625] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] cnt2: 0.0
-[28сент.2024 21:39:03.625] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] cnt3: 0.0
-[28сент.2024 21:39:03.625] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] cnt4: 0.0
-[28сент.2024 21:39:03.626] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] cnt5: 0.0
-[28сент.2024 21:39:03.626] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] cnt6: 0.0
-[28сент.2024 21:39:04.997] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] skill: 0.0
-[28сент.2024 21:39:04.997] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] cnt1: 0.0
-[28сент.2024 21:39:04.998] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] cnt2: 0.0
-[28сент.2024 21:39:04.998] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] cnt3: 0.0
-[28сент.2024 21:39:04.998] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] cnt4: 0.0
-[28сент.2024 21:39:04.998] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] cnt5: 0.0
-[28сент.2024 21:39:04.998] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] cnt6: 0.0
-[28сент.2024 21:39:05.325] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] You get 18 damage
-[28сент.2024 21:39:05.795] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] skill: 105.0
-[28сент.2024 21:39:05.796] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] cnt1: 0.0
-[28сент.2024 21:39:05.796] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] cnt2: 0.0
-[28сент.2024 21:39:05.796] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] cnt3: 0.0
-[28сент.2024 21:39:05.796] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] cnt4: 0.0
-[28сент.2024 21:39:05.796] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] cnt5: 13.0
-[28сент.2024 21:39:05.796] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] cnt6: 0.0
-[28сент.2024 21:39:06.169] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] "DRAGON SCALES"
-[28сент.2024 21:39:06.531] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] skill: 105.0
-[28сент.2024 21:39:06.531] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] cnt1: 0.0
-[28сент.2024 21:39:06.531] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] cnt2: 0.0
-[28сент.2024 21:39:06.532] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] cnt3: 0.0
-[28сент.2024 21:39:06.532] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] cnt4: 0.0
-[28сент.2024 21:39:06.532] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] cnt5: 7.0
-[28сент.2024 21:39:06.532] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] cnt6: 1.0
-[28сент.2024 21:39:07.003] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] skill: 105.0
-[28сент.2024 21:39:07.004] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] cnt1: 0.0
-[28сент.2024 21:39:07.004] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] cnt2: 0.0
-[28сент.2024 21:39:07.004] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] cnt3: 0.0
-[28сент.2024 21:39:07.004] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] cnt4: 0.0
-[28сент.2024 21:39:07.004] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] cnt5: 16.0
-[28сент.2024 21:39:07.005] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] cnt6: 1.0
-[28сент.2024 21:39:07.221] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] "REPULSION"
-[28сент.2024 21:39:07.442] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] skill: 105.0
-[28сент.2024 21:39:07.443] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] cnt1: 0.0
-[28сент.2024 21:39:07.443] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] cnt2: 0.0
-[28сент.2024 21:39:07.444] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] cnt3: 0.0
-[28сент.2024 21:39:07.444] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] cnt4: 0.0
-[28сент.2024 21:39:07.444] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] cnt5: 4.0
-[28сент.2024 21:39:07.444] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] cnt6: 2.0
-[28сент.2024 21:39:07.874] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] skill: 105.0
-[28сент.2024 21:39:07.875] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] cnt1: 0.0
-[28сент.2024 21:39:07.876] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] cnt2: 0.0
-[28сент.2024 21:39:07.876] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] cnt3: 0.0
-[28сент.2024 21:39:07.878] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] cnt4: 0.0
-[28сент.2024 21:39:07.879] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] cnt5: 13.0
-[28сент.2024 21:39:07.879] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] cnt6: 2.0
-[28сент.2024 21:39:08.255] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] skill: 105.0
-[28сент.2024 21:39:08.256] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] cnt1: 0.0
-[28сент.2024 21:39:08.256] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] cnt2: 0.0
-[28сент.2024 21:39:08.256] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] cnt3: 0.0
-[28сент.2024 21:39:08.256] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] cnt4: 0.0
-[28сент.2024 21:39:08.257] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] cnt5: 20.0
-[28сент.2024 21:39:08.257] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] cnt6: 2.0
-[28сент.2024 21:39:08.274] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] "PAIR OF METEOR"
-[28сент.2024 21:39:08.724] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] skill: 105.0
-[28сент.2024 21:39:08.725] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] cnt1: 0.0
-[28сент.2024 21:39:08.725] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] cnt2: 0.0
-[28сент.2024 21:39:08.726] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] cnt3: 0.0
-[28сент.2024 21:39:08.726] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] cnt4: 0.0
-[28сент.2024 21:39:08.726] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] cnt5: 0.0
-[28сент.2024 21:39:08.726] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] cnt6: 5.0
-[28сент.2024 21:39:10.922] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] You get 18 damage
-[28сент.2024 21:39:11.629] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] skill: 105.0
-[28сент.2024 21:39:11.630] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] cnt1: 0.0
-[28сент.2024 21:39:11.630] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] cnt2: 0.0
-[28сент.2024 21:39:11.631] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] cnt3: 0.0
-[28сент.2024 21:39:11.632] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] cnt4: 0.0
-[28сент.2024 21:39:11.632] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] cnt5: 0.0
-[28сент.2024 21:39:11.632] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] cnt6: 5.0
-[28сент.2024 21:39:12.089] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] skill: 105.0
-[28сент.2024 21:39:12.090] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] cnt1: 0.0
-[28сент.2024 21:39:12.090] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] cnt2: 0.0
-[28сент.2024 21:39:12.090] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] cnt3: 0.0
-[28сент.2024 21:39:12.090] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] cnt4: 0.0
-[28сент.2024 21:39:12.090] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] cnt5: 0.0
-[28сент.2024 21:39:12.090] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] cnt6: 5.0
-[28сент.2024 21:39:14.274] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] You get 18 damage
-[28сент.2024 21:39:14.303] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] skill: 105.0
-[28сент.2024 21:39:14.304] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] cnt1: 0.0
-[28сент.2024 21:39:14.304] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] cnt2: 0.0
-[28сент.2024 21:39:14.304] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] cnt3: 0.0
-[28сент.2024 21:39:14.304] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] cnt4: 0.0
-[28сент.2024 21:39:14.304] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] cnt5: 0.0
-[28сент.2024 21:39:14.304] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] cnt6: 5.0
-[28сент.2024 21:39:14.588] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] skill: 105.0
-[28сент.2024 21:39:14.589] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] cnt1: 0.0
-[28сент.2024 21:39:14.589] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] cnt2: 0.0
-[28сент.2024 21:39:14.589] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] cnt3: 0.0
-[28сент.2024 21:39:14.589] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] cnt4: 0.0
-[28сент.2024 21:39:14.589] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] cnt5: 0.0
-[28сент.2024 21:39:14.589] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] cnt6: 5.0
-[28сент.2024 21:39:14.793] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] skill: 105.0
-[28сент.2024 21:39:14.794] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] cnt1: 0.0
-[28сент.2024 21:39:14.794] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] cnt2: 0.0
-[28сент.2024 21:39:14.794] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] cnt3: 0.0
-[28сент.2024 21:39:14.794] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] cnt4: 0.0
-[28сент.2024 21:39:14.794] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] cnt5: 0.0
-[28сент.2024 21:39:14.794] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] cnt6: 5.0
-[28сент.2024 21:39:19.563] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
-[28сент.2024 21:39:19.580] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Новый мир]'/minecraft:overworld
-[28сент.2024 21:39:19.594] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Новый мир]'/jujutsucraft:cursed_spirit_manipulation_dimension
-[28сент.2024 21:39:19.596] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Новый мир]'/minecraft:the_end
-[28сент.2024 21:39:19.597] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Новый мир]'/minecraft:the_nether
-[28сент.2024 21:39:59.374] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] You get 18 damage
-[28сент.2024 21:39:59.826] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] "DRAGON SCALES"
-[28сент.2024 21:40:00.871] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] "REPULSION"
-[28сент.2024 21:40:01.124] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev достиг цели «[Mastery Domain Amplification (WIP)]»
-[28сент.2024 21:40:01.126] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev достиг цели «[Mastery Domain Amplification (WIP)]»
-[28сент.2024 21:40:01.135] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] You get 17 damage
-[28сент.2024 21:40:01.171] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 178 advancements
-[28сент.2024 21:40:01.928] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] "PAIR OF METEOR"
-[28сент.2024 21:40:03.188] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] You get 17 damage
-[28сент.2024 21:40:03.676] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] You get 17 damage
-[28сент.2024 21:40:04.177] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] You get 17 damage
-[28сент.2024 21:40:04.374] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] You get 4 damage
-[28сент.2024 21:40:04.724] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] You get 18 damage
-[28сент.2024 21:40:06.075] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
-[28сент.2024 21:40:06.090] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Новый мир]'/minecraft:overworld
-[28сент.2024 21:40:06.100] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Новый мир]'/jujutsucraft:cursed_spirit_manipulation_dimension
-[28сент.2024 21:40:06.106] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Новый мир]'/minecraft:the_end
-[28сент.2024 21:40:06.108] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Новый мир]'/minecraft:the_nether
-[28сент.2024 21:43:29.298] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] You get 17 damage
-[28сент.2024 21:43:29.401] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev завершил испытание «[Main Character]»
-[28сент.2024 21:43:29.403] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev завершил испытание «[Main Character]»
-[28сент.2024 21:43:29.433] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [MVP]Gained 197 fames.
-[28сент.2024 21:43:29.501] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] You dealt 268 damage
-[28сент.2024 21:43:29.520] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 180 advancements
-[28сент.2024 21:43:36.871] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Убраны все эффекты с Dev]
-[28сент.2024 21:43:36.873] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Убраны все эффекты с Dev
-[28сент.2024 21:43:40.226] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] You dealt 52 damage
-[28сент.2024 21:43:40.472] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] You dealt 9 damage
-[28сент.2024 21:43:43.921] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] You get 17 damage
-[28сент.2024 21:43:44.423] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] You get 17 damage
-[28сент.2024 21:43:44.635] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] You get 3 damage
-[28сент.2024 21:43:45.662] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
-[28сент.2024 21:43:45.715] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Новый мир]'/minecraft:overworld
-[28сент.2024 21:43:45.736] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Новый мир]'/jujutsucraft:cursed_spirit_manipulation_dimension
-[28сент.2024 21:43:45.742] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Новый мир]'/minecraft:the_end
-[28сент.2024 21:43:45.747] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Новый мир]'/minecraft:the_nether
-[28сент.2024 21:43:54.481] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] You get 40 damage
-[28сент.2024 21:43:55.285] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 180 advancements
-[28сент.2024 21:43:55.976] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] You get 17 damage
-[28сент.2024 21:43:56.472] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] You get 17 damage
-[28сент.2024 21:43:56.974] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] You get 17 damage
-[28сент.2024 21:43:57.470] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] You get 18 damage
-[28сент.2024 21:43:57.551] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] You get 4 damage
-[28сент.2024 21:43:57.563] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
-[28сент.2024 21:43:57.574] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Новый мир]'/minecraft:overworld
-[28сент.2024 21:43:57.582] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Новый мир]'/jujutsucraft:cursed_spirit_manipulation_dimension
-[28сент.2024 21:43:57.585] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Новый мир]'/minecraft:the_end
-[28сент.2024 21:43:57.588] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Новый мир]'/minecraft:the_nether
-[28сент.2024 21:43:59.335] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] skill: 0.0
-[28сент.2024 21:43:59.336] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] cnt1: 0.0
-[28сент.2024 21:43:59.336] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] cnt2: 0.0
-[28сент.2024 21:43:59.336] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] cnt3: 0.0
-[28сент.2024 21:43:59.336] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] cnt4: 0.0
-[28сент.2024 21:43:59.336] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] cnt5: 0.0
-[28сент.2024 21:43:59.337] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] cnt6: 0.0
-[28сент.2024 21:43:59.560] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] skill: 207.0
-[28сент.2024 21:43:59.561] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] cnt1: 1.0
-[28сент.2024 21:43:59.561] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] cnt2: 1.0
-[28сент.2024 21:43:59.561] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] cnt3: 0.0
-[28сент.2024 21:43:59.561] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] cnt4: 0.0
-[28сент.2024 21:43:59.561] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] cnt5: 0.0
-[28сент.2024 21:43:59.561] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] cnt6: 0.0
-[28сент.2024 21:43:59.748] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] You get 17 damage
-[28сент.2024 21:43:59.748] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] You dealt 210 damage
-[28сент.2024 21:43:59.748] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] You dealt 50 damage
-[28сент.2024 21:43:59.748] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] skill: 0.0
-[28сент.2024 21:43:59.748] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] cnt1: 0.0
-[28сент.2024 21:43:59.748] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] cnt2: 0.0
-[28сент.2024 21:43:59.748] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] cnt3: 0.0
-[28сент.2024 21:43:59.748] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] cnt4: 0.0
-[28сент.2024 21:43:59.748] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] cnt5: 0.0
-[28сент.2024 21:43:59.748] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] cnt6: 0.0
-[28сент.2024 21:43:59.934] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] skill: 0.0
-[28сент.2024 21:43:59.934] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] cnt1: 0.0
-[28сент.2024 21:43:59.935] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] cnt2: 0.0
-[28сент.2024 21:43:59.935] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] cnt3: 0.0
-[28сент.2024 21:43:59.935] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] cnt4: 0.0
-[28сент.2024 21:43:59.935] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] cnt5: 0.0
-[28сент.2024 21:43:59.935] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] cnt6: 0.0
-[28сент.2024 21:44:00.102] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] skill: 0.0
-[28сент.2024 21:44:00.103] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] cnt1: 0.0
-[28сент.2024 21:44:00.103] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] cnt2: 0.0
-[28сент.2024 21:44:00.103] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] cnt3: 0.0
-[28сент.2024 21:44:00.103] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] cnt4: 0.0
-[28сент.2024 21:44:00.103] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] cnt5: 0.0
-[28сент.2024 21:44:00.103] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] cnt6: 0.0
-[28сент.2024 21:44:00.247] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] skill: 0.0
-[28сент.2024 21:44:00.248] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] cnt1: 0.0
-[28сент.2024 21:44:00.248] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] cnt2: 0.0
-[28сент.2024 21:44:00.248] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] cnt3: 0.0
-[28сент.2024 21:44:00.248] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] cnt4: 0.0
-[28сент.2024 21:44:00.248] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] cnt5: 0.0
-[28сент.2024 21:44:00.248] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] cnt6: 0.0
-[28сент.2024 21:44:00.462] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
-[28сент.2024 21:44:00.479] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Новый мир]'/minecraft:overworld
-[28сент.2024 21:44:00.489] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Новый мир]'/jujutsucraft:cursed_spirit_manipulation_dimension
-[28сент.2024 21:44:00.491] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Новый мир]'/minecraft:the_end
-[28сент.2024 21:44:00.492] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Новый мир]'/minecraft:the_nether
-[28сент.2024 21:44:29.372] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] You get 18 damage
-[28сент.2024 21:44:29.426] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Убраны все эффекты с Dev]
-[28сент.2024 21:44:29.426] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Убраны все эффекты с Dev
-[28сент.2024 21:44:31.239] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] skill: 215.0
-[28сент.2024 21:44:31.240] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] cnt1: 19.0
-[28сент.2024 21:44:31.240] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] cnt2: 0.0
-[28сент.2024 21:44:31.240] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] cnt3: 0.0
-[28сент.2024 21:44:31.240] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] cnt4: 0.0
-[28сент.2024 21:44:31.240] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] cnt5: 7.0
-[28сент.2024 21:44:31.240] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] cnt6: 0.0
-[28сент.2024 21:44:31.811] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] skill: 215.0
-[28сент.2024 21:44:31.811] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] cnt1: 19.0
-[28сент.2024 21:44:31.811] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] cnt2: 0.0
-[28сент.2024 21:44:31.811] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] cnt3: 0.0
-[28сент.2024 21:44:31.811] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] cnt4: 0.0
-[28сент.2024 21:44:31.811] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] cnt5: 18.0
-[28сент.2024 21:44:31.811] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] cnt6: 0.0
-[28сент.2024 21:44:31.922] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] "NINE ROPES"
-[28сент.2024 21:44:32.089] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] skill: 215.0
-[28сент.2024 21:44:32.089] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] cnt1: 19.0
-[28сент.2024 21:44:32.089] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] cnt2: 0.0
-[28сент.2024 21:44:32.089] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] cnt3: 0.0
-[28сент.2024 21:44:32.089] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] cnt4: 0.0
-[28сент.2024 21:44:32.089] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] cnt5: 3.0
-[28сент.2024 21:44:32.089] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] cnt6: 1.0
-[28сент.2024 21:44:32.312] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
-[28сент.2024 21:44:32.327] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Новый мир]'/minecraft:overworld
-[28сент.2024 21:44:32.336] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Новый мир]'/jujutsucraft:cursed_spirit_manipulation_dimension
-[28сент.2024 21:44:32.342] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Новый мир]'/minecraft:the_end
-[28сент.2024 21:44:32.343] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Новый мир]'/minecraft:the_nether
-[28сент.2024 21:44:44.319] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Dev lost connection: Отключение
-[28сент.2024 21:44:44.324] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev покинул игру
-[28сент.2024 21:44:44.381] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Stopping singleplayer server as player logged out
-[28сент.2024 21:44:44.420] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
-[28сент.2024 21:44:44.431] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
-[28сент.2024 21:44:44.431] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
-[28сент.2024 21:44:50.816] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Новый мир]'/minecraft:overworld
-[28сент.2024 21:44:56.742] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Новый мир]'/jujutsucraft:cursed_spirit_manipulation_dimension
-[28сент.2024 21:44:56.819] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Новый мир]'/minecraft:the_end
-[28сент.2024 21:44:56.830] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Новый мир]'/minecraft:the_nether
-[28сент.2024 21:44:58.180] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (Новый мир): All chunks are saved
-[28сент.2024 21:44:58.181] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (cursed_spirit_manipulation_dimension): All chunks are saved
-[28сент.2024 21:44:58.181] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[28сент.2024 21:44:58.181] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[28сент.2024 21:44:58.189] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
-[28сент.2024 21:45:03.432] [Render thread/INFO] [ChunkBuilder/]: Stopping worker threads
-[28сент.2024 21:45:08.763] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!
+[24Oct2024 13:30:52.464] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeclientuserdev, --version, MOD_DEV, --assetIndex, 5, --assetsDir, C:\Users\SaltyFrappuccino\.mcreator\gradle\caches\forge_gradle\assets, --gameDir, ., --fml.forgeVersion, 47.3.0, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412]
+[24Oct2024 13:30:52.481] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.13 by Eclipse Adoptium; OS Windows 11 arch amd64 version 10.0
+[24Oct2024 13:30:52.896] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: Loading ImmediateWindowProvider fmlearlywindow
+[24Oct2024 13:30:53.180] [main/INFO] [EARLYDISPLAY/]: Trying GL version 4.6
+[24Oct2024 13:30:54.605] [main/INFO] [EARLYDISPLAY/]: Requested GL version 4.6 got version 4.6
+[24Oct2024 13:30:55.011] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/SaltyFrappuccino/.mcreator/gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.5/9d1c0c3a304ae6697ecd477218fa61b850bf57fc/mixin-0.8.5.jar%23128!/ Service=ModLauncher Env=CLIENT
+[24Oct2024 13:30:55.112] [pool-2-thread-1/INFO] [EARLYDISPLAY/]: GL info: NVIDIA GeForce GTX 1650 Ti/PCIe/SSE2 GL version 4.6.0 NVIDIA 566.03, NVIDIA Corporation
+[24Oct2024 13:30:56.130] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\SaltyFrappuccino\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\javafmllanguage\1.20.1-47.3.0\d7ebc62120f202109e300e084ca1a31a7b946a62\javafmllanguage-1.20.1-47.3.0.jar is missing mods.toml file
+[24Oct2024 13:30:56.140] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\SaltyFrappuccino\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\lowcodelanguage\1.20.1-47.3.0\1bf3e845ea0ce750096da8c71c8364b188ab74d4\lowcodelanguage-1.20.1-47.3.0.jar is missing mods.toml file
+[24Oct2024 13:30:56.148] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\SaltyFrappuccino\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\mclanguage\1.20.1-47.3.0\6093682e943ddccbabf70539319d7f2fe64db2e7\mclanguage-1.20.1-47.3.0.jar is missing mods.toml file
+[24Oct2024 13:30:56.159] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\SaltyFrappuccino\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlcore\1.20.1-47.3.0\3b6be96aba3e323f3c918e8ef6a96312d82d76ad\fmlcore-1.20.1-47.3.0.jar is missing mods.toml file
+[24Oct2024 13:30:56.921] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 1 dependencies adding them to mods collection
+[24Oct2024 13:31:02.589] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[24Oct2024 13:31:02.608] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeclientuserdev' with arguments [--version, MOD_DEV, --gameDir, ., --assetsDir, C:\Users\SaltyFrappuccino\.mcreator\gradle\caches\forge_gradle\assets, --assetIndex, 5]
+[24Oct2024 13:31:03.846] [main/INFO] [mixin/]: Remapping refMap geckolib.refmap.json using C:\Users\SaltyFrappuccino\MCreatorWorkspaces\BetterJJC/build/createSrgToMcp/output.srg
+[24Oct2024 13:31:03.885] [main/INFO] [mixin/]: Remapping refMap player-animation-lib-minecraft_common-refmap.json using C:\Users\SaltyFrappuccino\MCreatorWorkspaces\BetterJJC/build/createSrgToMcp/output.srg
+[24Oct2024 13:31:19.132] [Datafixer Bootstrap/INFO] [com.mojang.datafixers.DataFixerBuilder/]: 188 Datafixer optimizations took 1006 milliseconds
+[24Oct2024 13:31:25.616] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/SaltyFrappuccino/.mcreator/gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.3.0_mapped_official_1.20.1/forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23191!/assets/.mcassetsroot' uses unexpected schema
+[24Oct2024 13:31:25.619] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/SaltyFrappuccino/.mcreator/gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.3.0_mapped_official_1.20.1/forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23191!/data/.mcassetsroot' uses unexpected schema
+[24Oct2024 13:31:25.695] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[24Oct2024 13:31:25.727] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev
+[24Oct2024 13:31:26.081] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.3.1 build 7
+[24Oct2024 13:31:27.128] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.0, for MC 1.20.1 with MCP 20230612.114412
+[24Oct2024 13:31:27.135] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.0 Initialized
+[24Oct2024 13:31:36.344] [Render thread/INFO] [net.minecraftforge.gametest.ForgeGameTestHooks/]: Enabled Gametest Namespaces: []
+[24Oct2024 13:31:39.482] [Render thread/INFO] [net.minecraft.server.packs.resources.ReloadableResourceManager/]: Reloading ResourceManager: vanilla, mod_resources
+[24Oct2024 13:31:40.642] [Worker-Main-1/ERROR] [software.bernie.geckolib.GeckoLib/]: Unable to parse animation: sprint2
+[24Oct2024 13:31:41.316] [Worker-Main-14/WARN] [net.minecraft.client.sounds.SoundManager/]: File jujutsucraft:sounds/guard.ogg does not exist, cannot add it to event jujutsucraft:guard
+[24Oct2024 13:31:41.432] [Worker-Main-1/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_all_no_pua-15.0.06.hex, loading
+[24Oct2024 13:31:41.451] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[24Oct2024 13:31:42.037] [Worker-Main-4/WARN] [net.minecraft.client.renderer.texture.SpriteLoader/]: Texture jujutsucraft:item/icon_sword with size 18x18 limits mip level from 2 to 1
+[24Oct2024 13:31:42.038] [Worker-Main-4/WARN] [net.minecraft.client.renderer.texture.SpriteLoader/]: Texture jujutsucraft:item/icon_clothes_uraume_leggins with size 32x31 limits mip level from 1 to 0
+[24Oct2024 13:31:42.762] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: UP_TO_DATE Current: 47.3.0 Target: null
+[24Oct2024 13:31:43.786] [Worker-Main-12/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'minecraft:amanosakahoko' referenced from: jujutsucraft:inverted_spear_of_heaven#inventory: java.io.FileNotFoundException: minecraft:models/amanosakahoko.json
+[24Oct2024 13:31:43.786] [Worker-Main-12/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'minecraft:loudspeaker_inumaki' referenced from: jujutsucraft:loudspeaker#inventory: java.io.FileNotFoundException: minecraft:models/loudspeaker_inumaki.json
+[24Oct2024 13:31:43.787] [Worker-Main-12/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'minecraft:jugu' referenced from: jujutsucraft:sword_black#inventory: java.io.FileNotFoundException: minecraft:models/jugu.json
+[24Oct2024 13:31:43.787] [Worker-Main-12/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'minecraft:yuuun' referenced from: jujutsucraft:playful_cloud#inventory: java.io.FileNotFoundException: minecraft:models/yuuun.json
+[24Oct2024 13:31:43.789] [Worker-Main-12/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'minecraft:mahito_hand1' referenced from: jujutsucraft:mahito_hand_1#inventory: java.io.FileNotFoundException: minecraft:models/mahito_hand1.json
+[24Oct2024 13:31:43.789] [Worker-Main-12/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'minecraft:hanami_hand' referenced from: jujutsucraft:hanami_hand#inventory: java.io.FileNotFoundException: minecraft:models/hanami_hand.json
+[24Oct2024 13:31:43.791] [Worker-Main-12/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'minecraft:nichirintou2' referenced from: jujutsucraft:dragon_bone#inventory: java.io.FileNotFoundException: minecraft:models/nichirintou2.json
+[24Oct2024 13:31:43.792] [Worker-Main-12/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'minecraft:gavel_big' referenced from: jujutsucraft:gavel_long#inventory: java.io.FileNotFoundException: minecraft:models/gavel_big.json
+[24Oct2024 13:31:43.792] [Worker-Main-12/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'minecraft:black_rope' referenced from: jujutsucraft:black_rope#inventory: java.io.FileNotFoundException: minecraft:models/black_rope.json
+[24Oct2024 13:31:43.793] [Worker-Main-12/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'minecraft:broom' referenced from: jujutsucraft:broom#inventory: java.io.FileNotFoundException: minecraft:models/broom.json
+[24Oct2024 13:31:49.226] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:item.goat_horn.play
+[24Oct2024 13:31:49.227] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
+[24Oct2024 13:31:49.570] [Render thread/INFO] [com.mojang.blaze3d.audio.Library/]: OpenAL initialized on device OpenAL Soft on Динамики (Realtek(R) Audio)
+[24Oct2024 13:31:49.575] [Render thread/INFO] [net.minecraft.client.sounds.SoundEngine/SOUNDS]: Sound engine started
+[24Oct2024 13:31:49.968] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 2048x1024x2 minecraft:textures/atlas/blocks.png-atlas
+[24Oct2024 13:31:50.015] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x2 minecraft:textures/atlas/signs.png-atlas
+[24Oct2024 13:31:50.017] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x2 minecraft:textures/atlas/shield_patterns.png-atlas
+[24Oct2024 13:31:50.021] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x2 minecraft:textures/atlas/banner_patterns.png-atlas
+[24Oct2024 13:31:50.024] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x1024x2 minecraft:textures/atlas/armor_trims.png-atlas
+[24Oct2024 13:31:50.040] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x2 minecraft:textures/atlas/chest.png-atlas
+[24Oct2024 13:31:50.042] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x64x2 minecraft:textures/atlas/decorated_pot.png-atlas
+[24Oct2024 13:31:50.043] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x2 minecraft:textures/atlas/shulker_boxes.png-atlas
+[24Oct2024 13:31:50.045] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x2 minecraft:textures/atlas/beds.png-atlas
+[24Oct2024 13:31:50.757] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
+[24Oct2024 13:31:50.941] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 2048x2048x0 minecraft:textures/atlas/particles.png-atlas
+[24Oct2024 13:31:50.976] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
+[24Oct2024 13:31:50.977] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x0 minecraft:textures/atlas/mob_effects.png-atlas
+[24Oct2024 13:31:51.713] [Realms Notification Availability checker #1/INFO] [com.mojang.realmsclient.client.RealmsClient/]: Could not authorize you against Realms server: Invalid session id
+[24Oct2024 13:31:57.772] [Render thread/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: Injecting existing registry data into this CLIENT instance
+[24Oct2024 13:32:03.669] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 7 recipes
+[24Oct2024 13:32:04.000] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1483 advancements
+[24Oct2024 13:32:05.322] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Starting integrated minecraft server version 1.20.1
+[24Oct2024 13:32:05.323] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[24Oct2024 13:32:09.372] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[24Oct2024 13:32:17.559] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Подготовка области возрождения: 0%
+[24Oct2024 13:32:17.646] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Подготовка области возрождения: 0%
+[24Oct2024 13:32:17.647] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Подготовка области возрождения: 0%
+[24Oct2024 13:32:17.732] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Подготовка области возрождения: 0%
+[24Oct2024 13:32:17.733] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Подготовка области возрождения: 0%
+[24Oct2024 13:32:17.820] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Подготовка области возрождения: 0%
+[24Oct2024 13:32:17.821] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Подготовка области возрождения: 0%
+[24Oct2024 13:32:17.843] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Подготовка области возрождения: 0%
+[24Oct2024 13:32:17.976] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Подготовка области возрождения: 0%
+[24Oct2024 13:32:17.980] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Подготовка области возрождения: 0%
+[24Oct2024 13:32:17.981] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Подготовка области возрождения: 0%
+[24Oct2024 13:32:18.025] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Подготовка области возрождения: 0%
+[24Oct2024 13:32:18.026] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Подготовка области возрождения: 0%
+[24Oct2024 13:32:18.093] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Подготовка области возрождения: 0%
+[24Oct2024 13:32:18.095] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Подготовка области возрождения: 0%
+[24Oct2024 13:32:18.125] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Подготовка области возрождения: 0%
+[24Oct2024 13:32:18.126] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Подготовка области возрождения: 0%
+[24Oct2024 13:32:18.127] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Подготовка области возрождения: 0%
+[24Oct2024 13:32:18.395] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Подготовка области возрождения: 0%
+[24Oct2024 13:32:18.880] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Подготовка области возрождения: 0%
+[24Oct2024 13:32:19.382] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Подготовка области возрождения: 4%
+[24Oct2024 13:32:19.879] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Подготовка области возрождения: 32%
+[24Oct2024 13:32:20.376] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Подготовка области возрождения: 69%
+[24Oct2024 13:32:20.718] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[24Oct2024 13:32:20.729] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 11355 ms
+[24Oct2024 13:32:21.171] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing view distance to 5, from 10
+[24Oct2024 13:32:21.175] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing simulation distance to 12, from 0
+[24Oct2024 13:32:21.601] [Render thread/WARN] [io.netty.util.internal.SystemPropertyUtil/]: Unable to parse the boolean system property 'java.net.preferIPv6Addresses':system - using the default value: false
+[24Oct2024 13:32:22.521] [Netty Local Client IO #0/INFO] [net.minecraftforge.network.NetworkHooks/]: Connected to a modded server.
+[24Oct2024 13:32:22.644] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Dev[local:E:1fec4f79] logged in with entity id 29 at (129.19993272710968, 76.0, -203.30000001192093)
+[24Oct2024 13:32:22.744] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev присоединился к игре
+[24Oct2024 13:32:23.653] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 204 advancements
+[24Oct2024 13:32:24.499] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[24Oct2024 13:32:24.595] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Новый мир]'/minecraft:overworld
+[24Oct2024 13:32:25.924] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Новый мир]'/jujutsucraft:cursed_spirit_manipulation_dimension
+[24Oct2024 13:32:25.962] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Новый мир]'/minecraft:the_nether
+[24Oct2024 13:32:25.966] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Новый мир]'/minecraft:the_end
+[24Oct2024 13:40:40.904] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!
+[24Oct2024 13:40:40.962] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Dev lost connection: Отключение
+[24Oct2024 13:40:40.963] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev покинул игру
+[24Oct2024 13:40:41.056] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Stopping singleplayer server as player logged out
+[24Oct2024 13:40:41.162] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[24Oct2024 13:40:41.165] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[24Oct2024 13:40:41.166] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[24Oct2024 13:40:44.478] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Новый мир]'/minecraft:overworld
+[24Oct2024 13:40:44.620] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Новый мир]'/jujutsucraft:cursed_spirit_manipulation_dimension
+[24Oct2024 13:40:44.639] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Новый мир]'/minecraft:the_nether
+[24Oct2024 13:40:44.645] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Новый мир]'/minecraft:the_end
+[24Oct2024 13:40:44.757] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (Новый мир): All chunks are saved
+[24Oct2024 13:40:44.757] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (cursed_spirit_manipulation_dimension): All chunks are saved
+[24Oct2024 13:40:44.757] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[24Oct2024 13:40:44.757] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[24Oct2024 13:40:44.758] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved

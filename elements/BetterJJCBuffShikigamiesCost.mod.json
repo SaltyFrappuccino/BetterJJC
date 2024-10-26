@@ -1,0 +1,12 @@
+{
+  "_fv": 69,
+  "_type": "gamerule",
+  "definition": {
+    "type": "Number",
+    "displayName": "Buff Shikigamies Cost",
+    "description": "How much it cost in CE to buff shikigamies",
+    "category": "PLAYER",
+    "defaultValueLogic": false,
+    "defaultValueNumber": 500
+  }
+}

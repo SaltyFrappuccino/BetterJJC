@@ -5,40 +5,7 @@ repositories {
 }
 
 dependencies {
-  implementation fg.deobf('curse.maven:ftb-library-forge-404465:5282375')
-}
-
-
-repositories {
-  maven {
-      url = 'https://cursemaven.com/'
-  }
-}
-
-dependencies {
-  implementation fg.deobf('curse.maven:architectury-api-419699:5137938')
-}
-
-
-repositories {
-  maven {
-      url = 'https://cursemaven.com/'
-  }
-}
-
-dependencies {
-  implementation fg.deobf('curse.maven:sorceryfight-471288:5506676')
-}
-
-
-repositories {
-  maven {
-      url = 'https://cursemaven.com/'
-  }
-}
-
-dependencies {
-  implementation fg.deobf('curse.maven:embeddium-908741:5321172')
+  implementation fg.deobf('curse.maven:sorceryfight-471288:5826594')
 }
 
 

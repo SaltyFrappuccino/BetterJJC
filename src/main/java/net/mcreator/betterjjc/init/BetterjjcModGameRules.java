@@ -20,4 +20,12 @@ public class BetterjjcModGameRules {
 	public static final GameRules.Key<GameRules.BooleanValue> BETTER_JJC_SHOW_DAMAGE = GameRules.register("betterJJCShowDamage", GameRules.Category.PLAYER, GameRules.BooleanValue.create(true));
 	public static final GameRules.Key<GameRules.BooleanValue> BREAK_CONCENTRATION_GOJO_RED = GameRules.register("breakConcentrationGojoRed", GameRules.Category.PLAYER, GameRules.BooleanValue.create(true));
 	public static final GameRules.Key<GameRules.BooleanValue> BREAK_CONCENCTRATION_GOJO_HOLLOW_PURPLE = GameRules.register("breakConcenctrationGojoHollowPurple", GameRules.Category.PLAYER, GameRules.BooleanValue.create(true));
+	public static final GameRules.Key<GameRules.IntegerValue> BETTER_JJC_INCREASE_OUTPUT_COST = GameRules.register("betterJJCIncreaseOutputCost", GameRules.Category.PLAYER, GameRules.IntegerValue.create(100));
+	public static final GameRules.Key<GameRules.IntegerValue> BETTER_JJC_INCREASE_OUTPUT_MAX = GameRules.register("betterJJCIncreaseOutputMax", GameRules.Category.PLAYER, GameRules.IntegerValue.create(10));
+	public static final GameRules.Key<GameRules.BooleanValue> BETTER_JJC_INCREASE_OUTPUT = GameRules.register("betterJJCIncreaseOutput", GameRules.Category.PLAYER, GameRules.BooleanValue.create(true));
+	public static final GameRules.Key<GameRules.BooleanValue> BETTER_JJC_BARRIERLESS_DOMAIN_EXPANSION = GameRules.register("betterJJCBarrierlessDomainExpansion", GameRules.Category.PLAYER, GameRules.BooleanValue.create(true));
+	public static final GameRules.Key<GameRules.BooleanValue> BETTER_JJC_BUFF_SHIKIGAMIES = GameRules.register("betterJJCBuffShikigamies", GameRules.Category.PLAYER, GameRules.BooleanValue.create(true));
+	public static final GameRules.Key<GameRules.IntegerValue> BETTER_JJC_BUFF_SHIKIGAMIES_COST = GameRules.register("betterJJCBuffShikigamiesCost", GameRules.Category.PLAYER, GameRules.IntegerValue.create(500));
+	public static final GameRules.Key<GameRules.BooleanValue> BETTER_JJC_SLOWS_TARGETS = GameRules.register("betterJJCSlowsTargets", GameRules.Category.PLAYER, GameRules.BooleanValue.create(true));
+	public static final GameRules.Key<GameRules.BooleanValue> BETTER_JJC_BUFF_SUKUNA_ARMS = GameRules.register("betterJJCBuffSukunaArms", GameRules.Category.PLAYER, GameRules.BooleanValue.create(true));
 }

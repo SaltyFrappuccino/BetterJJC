@@ -23,6 +23,7 @@ import net.mcreator.betterjjc.network.SaveFastSkill3Message;
 import net.mcreator.betterjjc.network.SaveFastSkill2Message;
 import net.mcreator.betterjjc.network.SaveFastSkill1Message;
 import net.mcreator.betterjjc.network.PassiveSkillMessage;
+import net.mcreator.betterjjc.network.IncreaseOutputMessage;
 import net.mcreator.betterjjc.network.FastKnockbackAttackMessage;
 import net.mcreator.betterjjc.network.FastDEHotkeyMessage;
 import net.mcreator.betterjjc.network.FastBarrageAttackMessage;
@@ -206,6 +207,19 @@ public class BetterjjcModKeyMappings {
 			isDownOld = isDown;
 		}
 	};
+	public static final KeyMapping INCREASE_OUTPUT = new KeyMapping("key.betterjjc.increase_output", GLFW.GLFW_KEY_Y, "key.categories.betterjjc") {
+		private boolean isDownOld = false;
+
+		@Override
+		public void setDown(boolean isDown) {
+			super.setDown(isDown);
+			if (isDownOld != isDown && isDown) {
+				BetterjjcMod.PACKET_HANDLER.sendToServer(new IncreaseOutputMessage(0, 0));
+				IncreaseOutputMessage.pressAction(Minecraft.getInstance().player, 0, 0);
+			}
+			isDownOld = isDown;
+		}
+	};
 	private static long SAVE_FAST_SKILL_LASTPRESS = 0;
 
 	@SubscribeEvent
@@ -223,6 +237,7 @@ public class BetterjjcModKeyMappings {
 		event.register(SAVE_FAST_SKILL_4);
 		event.register(SPECIAL_MOVE);
 		event.register(DEBUG);
+		event.register(INCREASE_OUTPUT);
 	}
 
 	@Mod.EventBusSubscriber({Dist.CLIENT})
@@ -243,6 +258,7 @@ public class BetterjjcModKeyMappings {
 				SAVE_FAST_SKILL_4.consumeClick();
 				SPECIAL_MOVE.consumeClick();
 				DEBUG.consumeClick();
+				INCREASE_OUTPUT.consumeClick();
 			}
 		}
 	}
